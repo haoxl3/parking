@@ -22,7 +22,6 @@ module.exports = {
   */
   css: [
     '~assets/iconfont/iconfont.css',
-    'normalize.css/normalize.css',
     '~assets/css/common.css'
   ],
   /*

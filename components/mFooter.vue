@@ -13,18 +13,21 @@
         </ul>
     </div>
 </template>
+<script>
+  export default{
+
+  }
+</script>
 <style lang="stylus" scoped>
     .footer-container{
         position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
-        padding: 14px 10px 8px;
+        padding: 8px 10px;
         background-color: #fff;
         box-sizing: border-box;
         ul{
-            
-            height: 2rem;
             border: 1px solid #ccc;
             border-radius: 3px;
             padding: 6px 4px;
