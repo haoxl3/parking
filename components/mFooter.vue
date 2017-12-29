@@ -14,8 +14,22 @@
     </div>
 </template>
 <script>
+  import axios from '~/plugins/axios.js'
   export default{
-
+    created() {
+      this.asycGet()
+    },
+    methods: {
+      asycGet(){
+        /*axios.get('http://www.sojson.com/open/api/weather/json.shtml?city=%E5%8C%97%E4%BA%AC')
+          .then(function (response) {
+            console.log(response)
+          })
+          .catch(function (error) {
+            console.log(error)
+          })*/
+      }
+    }
   }
 </script>
 <style lang="stylus" scoped>

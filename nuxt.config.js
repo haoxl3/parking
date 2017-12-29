@@ -25,6 +25,15 @@ module.exports = {
     '~assets/css/common.css'
   ],
   /*
+  * plugins
+  * */
+  plugins: [
+    {src: '~/plugins/axios.js'}
+  ],
+  vendor: [
+    'axios'
+  ],
+  /*
   ** Build configuration
   */
   build: {

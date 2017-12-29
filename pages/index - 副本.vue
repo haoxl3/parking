@@ -28,6 +28,8 @@
             <p>共享车位</p>
           </nuxt-link>
         </li>
+      </ul>
+      <ul class="home-menu">
         <li>
           <nuxt-link to="/home/pay">
             <i class="iconfont">&#xe679;</i>
@@ -46,6 +48,8 @@
             <p>停车记录</p>
           </nuxt-link>
         </li>
+      </ul>
+      <ul class="home-menu">
         <li>
           <nuxt-link to="/home/pay">
             <i class="iconfont">&#xe603;</i>
@@ -64,6 +68,8 @@
             <p>停车券</p>
           </nuxt-link>
         </li>
+      </ul>
+      <ul class="home-menu">
         <li>
           <nuxt-link to="/home/pay">
             <i class="iconfont">&#xe601;</i>
@@ -137,16 +143,11 @@ export default {
     margin-bottom: 54px;
   }
   .home-menu{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 1px;
-    grid-row-gap: 1px;
-    background-color: #ccc;
+    display: flex;
+    align-content center;
+    border-bottom: 1px solid #ccc;
     li{
-      display: flex;
-      background-color: #fff;
-      justify-content: center;
-      align-items: center;
+      flex: 1;
       padding: 40px 20px;
       text-align: center;
       i{
