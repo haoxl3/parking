@@ -17,61 +17,61 @@
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/appoint">
             <i class="iconfont">&#xe603;</i>
             <p>预约车位</p>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/share">
             <i class="iconfont">&#xe60f;</i>
             <p>共享车位</p>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/looking">
             <i class="iconfont">&#xe679;</i>
             <p>寻找爱车</p>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/near">
             <i class="iconfont">&#xe602;</i>
             <p>附近</p>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/parking">
             <i class="iconfont">&#xe676;</i>
             <p>停车记录</p>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/appRecord">
             <i class="iconfont">&#xe603;</i>
             <p>预约记录</p>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/carManage">
             <i class="iconfont">&#xe620;</i>
             <p>车辆管理</p>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/parkingTicket">
             <i class="iconfont">&#xe61d;</i>
             <p>停车券</p>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/personal">
             <i class="iconfont">&#xe601;</i>
             <p>个人中心</p>
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/home/pay">
+          <nuxt-link to="/home/messages">
             <i class="iconfont">&#xe600;</i>
             <p>消息中心</p>
           </nuxt-link>
