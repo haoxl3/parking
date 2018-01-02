@@ -10,11 +10,9 @@
     </div>
 </template>
 <style lang="stylus">
-body{
-    background-color: #fff;
-}
 .container{
   padding: 10px;
+  background-color: #fff;
 }
 .search-container{
     display: flex;

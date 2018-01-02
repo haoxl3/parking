@@ -39,7 +39,7 @@
         </ul>
       </div>
     </div>
-    <p class="more-pay">查看更多停车记录<i class="iconfont">&#xe609;</i></p>
+    <p class="more">查看更多停车记录<i class="iconfont">&#xe609;</i></p>
   </div> 
 </template>
 <script>
@@ -52,7 +52,7 @@ export default {
   }
 }
 </script>
-<style lang="stylus">
+<style lang="stylus" scoped>
 body{
   background-color: #eee;
 }
@@ -122,7 +122,7 @@ body{
     }
   }
 }
-.more-pay{
+.more{
   text-align: center;
   color: #2484E0;
   line-height: 30px;

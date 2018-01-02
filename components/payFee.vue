@@ -62,7 +62,7 @@
         }
     }
 </script>
-<style lang="stylus">
+<style lang="stylus" scoped>
 .card-container{
     margin: 10px 0;
     .card-box{
