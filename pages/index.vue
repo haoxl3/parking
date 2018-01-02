@@ -101,7 +101,7 @@ export default {
   .top-banner{
     height: 8rem;
     background-color: #fff;
-    margin-bottom: 8px;
+    border-bottom: 8px solid #eee;
     position: relative;
     .avatar-box{
       position: absolute;
@@ -132,7 +132,6 @@ export default {
     }
   }
   .menus{
-    margin-top: 8px;
     background-color: #fff;
     margin-bottom: 54px;
   }
@@ -141,7 +140,7 @@ export default {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1px;
     grid-row-gap: 1px;
-    background-color: #ccc;
+    background-color: #eee;
     li{
       display: flex;
       background-color: #fff;
@@ -158,7 +157,7 @@ export default {
       }
     }
     li + li{
-      border-left: 1px solid #ccc;
+      border-left: 1px solid #eee;
     }
   }
 </style>
