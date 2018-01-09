@@ -148,6 +148,11 @@ export default {
       align-items: center;
       padding: 40px 20px;
       text-align: center;
+      a{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+      }
       i{
         font-size: 30px;
         color: #FA9D26;

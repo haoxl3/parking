@@ -23,7 +23,7 @@
         </div>
     </div>
 </template>
-<style lang="stylus">
+<style lang="stylus" scoped>
 .item{
   background-color: #fff;
   border-bottom: 1px solid #eee;
@@ -45,6 +45,7 @@
         text-align: center;
         font-weight: 700;
         margin-right: 6px;
+        color: #333;
       }
     }
     .parking-intro{

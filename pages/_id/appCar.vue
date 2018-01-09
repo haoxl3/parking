@@ -20,7 +20,7 @@
                     我同意《易停车用户协议》
                 </li>
             </ul>
-            <div class="long-btn">继续预约</div>
+            <div class="long-btn"><nuxt-link to="/home/successApoint">继续预约</nuxt-link></div>
         </div>
     </div>
 </template>
