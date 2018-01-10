@@ -1,7 +1,7 @@
 <template>
     <div class="item" id="0">
         <div class="flex-left">
-            <p class="adress"><i>P</i>燕东大厦停车场</p>
+            <p class="address"><i>P</i>燕东大厦停车场</p>
             <ul class="parking-intro clearfix">
             <li>园区</li>
             <li>地面</li>
@@ -31,7 +31,7 @@
   display: flex;
   .flex-left{
     flex: 8;
-    .adress{
+    .address{
       font-size: 16px;
       color: #FA9D26;
       margin-bottom: 10px;
